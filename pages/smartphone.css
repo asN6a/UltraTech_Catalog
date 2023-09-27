@@ -139,7 +139,7 @@ header {
 }
 
 .alert {
-  color: var(--font-color-1);
+  color: var(--font-color-0);
   margin-top: 3px;
   font-size: 15px;
   text-aling: center;
