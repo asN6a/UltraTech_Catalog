@@ -141,8 +141,8 @@ header {
 .alert {
   color: var(--font-color-1);
   margin-top: 3px;
-  font-size: 18px;
-  background: var(--background-color-2);
+  font-size: 15px;
+  text-aling: center;
 }
 
 /* smartphone-price */
