@@ -126,12 +126,6 @@ header {
   background: var(--main-color-0);
 }
 
-.span {
-  color: var(--background-color-2);
-  font-size: 10px;
-  margin: 0 auto;
-}
-
 .sd-s-btn button:hover, .sd-s-btn button span {
   color: var(--font-color-0);
 }
