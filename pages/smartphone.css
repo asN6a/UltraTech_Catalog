@@ -145,9 +145,10 @@ header {
 }
 
 .sd-storage span {
-  color: var(--main-color-0);
+  color: var(--font-color-1);
   margin-top: 3px;
   font-size: 18px;
+  background: var(--background-color-2);
 }
 
 /* smartphone-price */
