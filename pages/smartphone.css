@@ -136,7 +136,7 @@ header {
   color: var(--font-color-0);
 }
 
-.sd-s-btn span {
+.alert {
   display: flex;
   flex-direction: column;
   font-weight: 400;
