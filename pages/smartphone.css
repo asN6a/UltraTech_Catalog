@@ -130,7 +130,7 @@ header {
   color: var(--font-color-0);
 }
 
-.alert {
+.sd-s-btn span {
   display: flex;
   flex-direction: column;
   font-weight: 400;
