@@ -146,7 +146,8 @@ header {
 
 .sd-storage span {
   color: var(--main-color-0);
-  font-size: 13px;
+  margin-top: 3px;
+  font-size: 18px;
 }
 
 /* smartphone-price */
@@ -228,5 +229,8 @@ header {
   .price-textbox a {
     width: 50%;
     height: 45px;
+  }
+  .sd-storage span {
+    font-size: 20px;
   }
 }
