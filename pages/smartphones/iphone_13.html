@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 13</title>
+    
+    <link rel="stylesheet" href="smartphone.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  </head>
+  <body>
+    <header>
+      <h1 href="/index.html">Gil Smartphones</h1>
+    </header>
+    <div class="responsive1">
+      <div class="imgbox">
+      <img src="https://cdn.awsli.com.br/2500x2500/761/761012/produto/218353870/editada--5--rcs401z0ta.png"/>
+    </div>
+      <div class="header-textbox">
+        <div class="ht-title">
+        <h1>iPhone 13</h1>
+      </div>
+        <div class="header-review-star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>4,9</span>
+      </div>
+        <div class="ht-speed-specification">
+          <li>Display de 6,1"</li>
+          <li>4GB Memória Ram</li>
+          <li>Câmera de 12MP</li>
+          <li>Bateria de 3240 mAh</li>
+      </div>
+        <div class="sd-color">
+        <h2>Cores Disponíveis:</h2>
+        <div class="colors-container">
+          <div class="colors black"></div>
+          <div class="colors silver"></div>
+          <div class="colors gold"></div>
+          <div class="colors purple"></div>
+        </div>
+      </div>
+        <div class="sd-storage">
+          <h2>Armazenamento:</h2>
+          <p class="alert">*Clique em umas das opções abaixo para ver os preços*</p>
+          <div class="sd-s-btn">
+            <button class="storageBtn" id="sBtn1" type="submit">
+              <span>128GB</span>
+              <span>R$4.090,00</span>
+            </button>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div class="responsive2">
+    </div>
+    <div class="smartphone-description">
+      <div class="description-textbox">
+        <span>O Apple iPhone 13 é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.1 polegadas com uma resolução de 2532x1170 pixel. As funcionalidades oferecidas pelo Apple iPhone 13 são muitas e inovadoras. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.
+          Câmera discreta de 12 megapixel mas que permite ao Apple iPhone 13 tirar fotos de boa qualidade com uma resolução de 4000x3000 pixel e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. A espessura de 7.7mm torna o Apple iPhone 13 um dos telefones mais completos e finos</span>
+      </div>
+    </div>
+    <div class="smartphone-price">
+      <div class="price-textbox">
+        <span class="priceCtext">12X R$ 390,00</span>
+        <strong id="priceText">R$4.090,00</strong>
+        <a href="#">Entre em Contato</a>
+      </div>
+    </div>
+    
+    <script>
+      const storageBtn = document.querySelector('.storageBtn');
+      const sBtn1 = document.querySelector('#sBtn1');
+      var priceText = document.querySelector("#priceText");
+      var priceCtext = document.querySelector('.priceCtext');
+      var smartphonePrice = document.querySelector('.smartphone-price');
+      
+      sBtn1.addEventListener("click", function() {
+        if (storageBtn === sBtn1) {
+          priceText.innerHTML = "R$4.090,00 à vista"
+          priceCtext.innerHTML = "12X de R$390,00"
+          sBtn1.style.background = 'var(--main-color-0)'
+          smartphonePrice.style.display = 'block'
+        }
+      });
+    </script>
+  </body>
+</html>
