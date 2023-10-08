@@ -1,1 +1,1 @@
-# onlineCatalog
+# Smartphone Store Catalog
