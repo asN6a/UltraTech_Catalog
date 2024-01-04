@@ -1,1 +1,1 @@
-# Smartphone Store Catalog
+# Gil Smartphone Template
