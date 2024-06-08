@@ -1,1 +1,1 @@
-# Gil Smartphone Template
+# UltraTech Catalog
