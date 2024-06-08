@@ -180,7 +180,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: left;
-  width: 14,6em;
+  width: 15em;
   margin-bottom: 10px;
   break-inside: avoid;
   color: var(--font-color-0);
@@ -206,12 +206,12 @@ header {
 
 .plc-box-textbox span {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .plc-box-textbox strong {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .reviewBtn button {
